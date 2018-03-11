@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrNet", "SolrNet\SolrNet.csproj", "{86B7A61A-D5D4-4F6A-9B3A-6926F09E3905}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solr.Server", "Solr.Server", "{B3CC512C-03C4-4298-9C46-1D34469D3DF5}"
+	ProjectSection(SolutionItems) = preProject
+		Solr.Server\config.ps1 = Solr.Server\config.ps1
+		Solr.Server\solr.xml = Solr.Server\solr.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{069A7E61-A83F-4ED7-94AC-A1F1860AE95D}"
+	ProjectSection(SolutionItems) = preProject
+		Solr.Server\example\core.properties = Solr.Server\example\core.properties
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "conf", "conf", "{D2F1FBF0-6A20-4C88-8083-6A463B744464}"
+	ProjectSection(SolutionItems) = preProject
+		Solr.Server\example\conf\config.xml = Solr.Server\example\conf\config.xml
+		Solr.Server\example\conf\schema.xml = Solr.Server\example\conf\schema.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86B7A61A-D5D4-4F6A-9B3A-6926F09E3905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B7A61A-D5D4-4F6A-9B3A-6926F09E3905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B7A61A-D5D4-4F6A-9B3A-6926F09E3905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B7A61A-D5D4-4F6A-9B3A-6926F09E3905}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{069A7E61-A83F-4ED7-94AC-A1F1860AE95D} = {B3CC512C-03C4-4298-9C46-1D34469D3DF5}
+		{D2F1FBF0-6A20-4C88-8083-6A463B744464} = {069A7E61-A83F-4ED7-94AC-A1F1860AE95D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C142385-B15B-4143-8937-84C2894A09FF}
+	EndGlobalSection
+EndGlobal
